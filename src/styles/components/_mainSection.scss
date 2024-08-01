@@ -1,0 +1,14 @@
+.mainSection {
+  padding-top: 20px;
+
+  @include media-breakpoint-up() {
+    padding-top: 40px;
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  &__buttons {
+    margin-top: 20px;
+    text-align: center;
+  }
+}

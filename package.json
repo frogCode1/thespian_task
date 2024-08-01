@@ -1,0 +1,22 @@
+{
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "start": "vue-cli-service serve --open --port 9000 --mode development",
+    "build": "vue-cli-service build"
+  },
+  "dependencies": {
+    "core-js": "^3.6.5",
+    "srt-webvtt": "^2.0.0",
+    "vue": "^3.0.0",
+    "vue-router": "^4.0.13"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^5.0.8",
+    "@vue/cli-service": "^5.0.8",
+    "@vue/compiler-sfc": "^3.0.0-0",
+    "raw-loader": "^4.0.2",
+    "sass": "^1.69.5",
+    "sass-loader": "^13.3.2"
+  }
+}

@@ -1,0 +1,16 @@
+@mixin font($font-weight, $font-style) {
+  font-family: $font-primary;
+  font-weight: $font-weight;
+  font-style: $font-style;
+}
+
+@mixin text-size($font-size, $line-height) {
+  font-size: $font-size;
+  line-height: $line-height;
+}
+
+@mixin media-breakpoint-up() {
+  @media (min-width: $breakpoint) {
+    @content;
+  }
+}
